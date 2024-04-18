@@ -8,7 +8,7 @@ import {
   Controls,
   Stories,
 } from "@storybook/blocks";
-import { ComponentAuthor } from "./components/ComponentAuthor";
+import { ComponentAuthor } from "./components/ComponentAuthor.js";
 
 const preview: ProjectAnnotations<Renderer> = {
   parameters: {
@@ -16,7 +16,7 @@ const preview: ProjectAnnotations<Renderer> = {
       page: () => {
         return (
           <>
-            {/* <Title /> */}
+            <Title />
             <Subtitle />
             <ComponentAuthor />
             <Description />
