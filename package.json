@@ -50,6 +50,8 @@
     "build-storybook": "storybook build"
   },
   "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-typescript": "^7.24.1",
     "@storybook/addon-essentials": "^8.0.8",
     "@storybook/addon-interactions": "^8.0.8",
     "@storybook/addon-links": "^8.0.8",
@@ -94,10 +96,10 @@
       "src/manager.ts"
     ],
     "previewEntries": [
-      "src/preview.ts"
+      "src/preview.tsx"
     ],
     "nodeEntries": [
-      "src/preset.ts"
+      "src/preset.tsx"
     ]
   },
   "storybook": {
